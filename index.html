@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wellington Sculptures</title>
+    <link rel="stylesheet" href="dist/baguetteBox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kristi|Quicksand" rel="stylesheet">
+    <style>
+      img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+      }
+      body{
+        background-color: black;
+      }
+      .layout{
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+      }
+      h1{
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 5em;
+        margin-bottom: 10px;
+      }
+      h4{
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        margin-right: 12%;
+        margin-bottom: 50px;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="baguetteBoxOne gallery layout">
+      <div class="">
+        <h1>Sculptures Around Wellington</h1>
+        <h4>by Adi and Izsi</h4>
+      </div>
+      <a href="img/IMG_6641B.jpg" data-caption="Image caption">
+          <img src="img/IMG_6641B.jpg" alt="First image">
+      </a>
+      <a href="img/IMG_6643B.jpg">
+          <img src="img/IMG_6643B.jpg" alt="Second image">
+      </a>
+      <a href="img/IMG_6646B.jpg">
+          <img src="img/IMG_6646B.jpg" alt="3 image">
+      </a>
+      <a href="img/IMG_6650B.jpg">
+          <img src="img/IMG_6650B.jpg" alt="4 image">
+      </a>
+      <a href="img/IMG_6661B.jpg">
+          <img src="img/IMG_6661B.jpg" alt="5 image">
+      </a>
+      <a href="img/IMG_6666B.jpg">
+          <img src="img/IMG_6666B.jpg" alt="6 image">
+      </a>
+      <a href="img/IMG_6671B.jpg">
+          <img src="img/IMG_6671B.jpg" alt="7 image">
+      </a>
+      <a href="img/IMG_6674B.jpg">
+          <img src="img/IMG_6674B.jpg" alt="8 image">
+      </a>
+      <a href="img/IMG_6680B.jpg">
+          <img src="img/IMG_6680B.jpg" alt="9 image">
+      </a>
+      <a href="img/IMG_6681B.jpg">
+          <img src="img/IMG_6681B.jpg" alt="10 image">
+      </a>
+      <a href="img/IMG_6683B.jpg">
+          <img src="img/IMG_6683B.jpg" alt="11 image">
+      </a>
+      <a href="img/IMG_6686B.jpg">
+          <img src="img/IMG_6686B.jpg" alt="12 image">
+      </a>
+      <a href="img/IMG_6688B.jpg">
+          <img src="img/IMG_6688B.jpg" alt="13 image">
+      </a>
+      <a href="img/IMG_6691B.jpg">
+          <img src="img/IMG_6691B.jpg" alt="14 image">
+      </a>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="dist/baguetteBox.min.js" async></script>
+    <script>
+      $(document).ready(function(){
+        baguetteBox.run('.gallery');
+        baguetteBox.run('.baguetteBoxOne');
+      })
+    </script>
+  </body>
+</html>
